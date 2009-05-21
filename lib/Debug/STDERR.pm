@@ -8,7 +8,7 @@ use Time::HiRes qw(gettimeofday);
 use POSIX qw(strftime);
 use Exporter 'import';
 
-our $VERSION = '0.00001';
+our $VERSION = '0.00002';
 our @EXPORT = qw(debug);
 
 if (DEBUG_FLAG) {

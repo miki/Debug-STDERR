@@ -1,4 +1,7 @@
 Revision history for Perl extension Debug::STDERR
 
+0.00002  2009/05/21
+        - fix a little
+
 0.00001  2009/05/21 
         - original version
