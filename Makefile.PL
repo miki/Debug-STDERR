@@ -7,7 +7,6 @@ requires 'Carp';
 requires 'Data::Dumper';
 requires 'Time::HiRes';
 requires 'POSIX';
-requires 'Exporter';
 
 build_requires 'Test::More';
 use_test_base;

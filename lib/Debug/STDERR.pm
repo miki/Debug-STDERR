@@ -6,10 +6,10 @@ use Carp;
 use Data::Dumper;
 use Time::HiRes qw(gettimeofday);
 use POSIX qw(strftime);
-use Exporter 'import';
-
-our $VERSION = '0.00002';
+use base qw(Exporter);
 our @EXPORT = qw(debug);
+
+our $VERSION = '0.00003';
 
 if (DEBUG_FLAG) {
 
@@ -140,8 +140,9 @@ Furthermore if you set 'STDERR2LOG' variable, the data for STDERR will be redire
                              }, 'LWP::UserAgent' )
             };
 
+=head1 METHOD
 
-
+=head2 debug($label => \%hash)
 
 =head1 AUTHOR
 
